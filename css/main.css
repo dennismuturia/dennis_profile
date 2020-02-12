@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0%;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+/******************Navbar*******************************/
+.navbar{
+    background-color: black;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar.trans {
+    background:transparent !important;
+    background-color: rgba(0,0,0,0.0);
+   /* box-shadow: 0px 0px;*/
+    border-width: 0px;
+   /* -webkit-box-shadow: 0px 0px;   */
+ }
+
+ /************************body******************************/
+ .headers{
+     color: black;
+     margin-top: 5%;
+     font-size: 3em;
+ }
+.projects{
+    background-color:#f2f2f2;
+    width: 100%;
+    height: 100%;
+}
+.body-section{
+    padding-top: 50%;
+}
+.exp{
+    
+}
+hr {
+background-color: currentColor;
+  min-width: 50%;
+  height: 2px;
+  border: none;
+  margin: 10%;
+  position: relative;
+
+}
+.jobs{
+    
+}
+.line{
+    border-left: 3px solid black;
+    height: 200px;
+    margin-left: 48%;
+}
+.point::before{
+    content: ' \25CF';
+    font-size: 20px;
+}
+.work{
+    color: #f2f2f2;
+}
